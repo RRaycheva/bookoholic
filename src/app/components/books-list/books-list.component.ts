@@ -15,7 +15,8 @@ export class BooksListComponent implements OnInit {
       "author": "Стефан Вълдобрев",
       "genre": "Автобиография",
       "publisher": "Книгомания",
-      "description": "Песента беше написана, изсвирена, почти изпята"
+      "description": "Песента беше написана, изсвирена, почти изпята",
+      "imgPath": "assets/img/stefan-vyldobrev-kniga-za-pesnite-9786191952601.jpg"
     },
     {
       "id": 2,
@@ -23,22 +24,25 @@ export class BooksListComponent implements OnInit {
       "author": "Стефан Вълдобрев",
       "genre": "Автобиография",
       "publisher": "Книгомания",
-      "description": "Песента беше написана, изсвирена, почти изпята"
+      "description": "Песента беше написана, изсвирена, почти изпята",
+      "imgPath": "assets/img/stefan-vyldobrev-kniga-za-pesnite-9786191952601.jpg"
     }, {
       "id": 3,
       "title": "Книга за песните",
       "author": "Стефан Вълдобрев",
       "genre": "Автобиография",
       "publisher": "Книгомания",
-      "description": "Песента беше написана, изсвирена, почти изпята"
-    }, 
+      "description": "Песента беше написана, изсвирена, почти изпята",
+      "imgPath": "assets/img/stefan-vyldobrev-kniga-za-pesnite-9786191952601.jpg"
+    },
     {
       "id": 4,
       "title": "Книга за песните",
       "author": "Стефан Вълдобрев",
       "genre": "Автобиография",
       "publisher": "Книгомания",
-      "description": "Песента беше написана, изсвирена, почти изпята"
+      "description": "Песента беше написана, изсвирена, почти изпята",
+      "imgPath": "assets/img/stefan-vyldobrev-kniga-za-pesnite-9786191952601.jpg"
     }
     , {
       "id": 5,
@@ -46,14 +50,16 @@ export class BooksListComponent implements OnInit {
       "author": "Стефан Вълдобрев",
       "genre": "Автобиография",
       "publisher": "Книгомания",
-      "description": "Песента беше написана, изсвирена, почти изпята"
+      "description": "Песента беше написана, изсвирена, почти изпята",
+      "imgPath": "assets/img/stefan-vyldobrev-kniga-za-pesnite-9786191952601.jpg"
     }, {
       "id": 6,
       "title": "Книга за песните",
       "author": "Стефан Вълдобрев",
       "genre": "Автобиография",
       "publisher": "Книгомания",
-      "description": "Песента беше написана, изсвирена, почти изпята"
+      "description": "Песента беше написана, изсвирена, почти изпята",
+      "imgPath": "assets/img/stefan-vyldobrev-kniga-za-pesnite-9786191952601.jpg"
     }
 
 

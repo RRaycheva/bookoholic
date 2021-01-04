@@ -11,10 +11,13 @@ import { ProductgridComponent } from './components/productgrid/productgrid.compo
 import { BannerComponent } from './components/banner/banner.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
 import { BooksListComponent } from './components/books-list/books-list.component';
-import { BookService } from './services/book.service';
+import { BookResource } from './services/book.service';
 import { UserService } from './services/user.service';
 import { AuthorService } from './services/author.service';
 import { GenreService } from './services/genre.service';
+import { BookDetailComponent } from './components/bookdetail/bookdetail.component';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -26,15 +29,18 @@ import { GenreService } from './services/genre.service';
     ProductgridComponent,
     BannerComponent,
     HomepageComponent,
-    BooksListComponent
-    
+    BooksListComponent,
+    BookDetailComponent
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CommonModule
+    CommonModule,
+    FormsModule,
+    HttpClientModule
   ],
-  providers: [BookService,UserService,AuthorService,GenreService],
+  providers: [BookResource, UserService, AuthorService, GenreService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
