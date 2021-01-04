@@ -16,6 +16,10 @@ const routes: Routes = [
   {
     path: 'books',
     component: BooksListComponent
+  },
+  {
+    path: 'addbook',
+    component: BookDetailComponent
   }
 ];
 

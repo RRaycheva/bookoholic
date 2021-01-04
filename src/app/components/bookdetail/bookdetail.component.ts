@@ -11,11 +11,11 @@ export class BookDetailComponent {
   book = new Book();
 
   constructor(
-    private service: BookResource
+    private bookResource: BookResource
   ) { }
 
   save(): void {
-    this.service.createBook(this.book)
+    this.bookResource.createBook(this.book)
       .subscribe();
   }
 }
